@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+  
+  .hero {
+    background: #f8f9fc;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    color: #2a3f5f;
+  }
+  
+  .new-arrival {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+ 
+  .custom-btn {
+    background-color: #2a3f5f;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px; 
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-btn:hover {
+    background-color: #1a2c4d;
+  }
+  
+  .features {
+    background: #eef1f7;
+  }
+  
+  .feature-item h5 {
+    margin-top: 10px;
+  }
+  
+  .collection h2 {
+    font-weight: bold;
+  }
+  
+  .collection p {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
